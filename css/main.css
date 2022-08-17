@@ -1,0 +1,278 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+body{
+
+    background-image: url(../images/star2.jpeg);
+    background-size: cover;
+    
+    background-attachment: fixed;
+    width: 100%;
+    height:100vh;
+}
+
+/* .home{
+
+    width: 100%;
+    height:100vh;
+    background-size: 100% 100%;
+    
+    background-image: url(../images/star2.jpeg);
+    background-repeat: no-repeat;
+
+} */
+.home .nav{
+background-image: url(../images/star.jpeg);
+
+padding: 5px;
+display: flex;
+justify-content: space-between;
+box-shadow: 0px 0px 10px rgba(224, 48, 48,0.8);
+
+
+}
+i{
+
+    color:rgb(237, 226, 226,0.5);
+    padding-right: 10px;
+}
+.home .nav h1{
+  
+  margin: 10px;
+  color: rgba(224, 48, 48,0.6);
+  font-size: 35px;
+}
+
+.home .nav ul{
+
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.home .nav  ul li{
+margin:15px;
+font-size: 18px;
+}
+
+
+
+.home .nav  ul li button{
+width:150px;
+height:27px;
+font-weight: bold;
+border-radius: 5px;
+border: none ;
+box-shadow: 5px 5px 10px rgba(224, 48, 48,0.6);
+color: red;
+background-color: rgba(229, 221, 221,0.6);
+
+
+
+}
+.home .nav  ul li button:hover{
+    background-color: white;
+}
+.home .nav a{
+text-decoration: none;
+color:white;
+
+}
+.home .display{
+display: flex;
+margin:100px;
+text-align: center;
+
+
+}
+
+.home .display .logo i{
+    font-size: 300px;
+    color: rgba(0,0,0,0.5);
+    
+}
+.home .display .logo i:hover{
+    
+    transform: rotate(300deg);
+    color: black;
+    transition: all;
+    
+}
+
+
+.home .content h1{
+
+    font-size: 85px;
+    color: red;
+}
+.home .content p{
+
+    font-size: 25px;
+    color: white;
+}
+.home .content button{
+
+    width:120px;
+height:50px;
+font-weight: bold;
+border-radius: 9px;
+border: none ;
+margin-top: 40px;
+background-color: rgba(229, 221, 221,0.6);
+box-shadow: 0px 0px 10px rgba(224, 48, 48,0.7);
+color:black;
+font-size: 17px;
+}
+.home .content button:hover{
+    background-color: #fff;
+}
+.home .box{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.home .box .box1{
+
+width:800px;
+height:100px;
+margin:10px ;
+padding-bottom: 15px;
+background-color: rgba(224, 48, 48,0.4);
+border-radius: 10px;
+color: white;
+}
+.home .box .box1 p{
+    margin-top: 20px;
+}
+
+.home .boxno2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 90px;
+    
+}
+.home .boxno2 .box2{
+width: 800px;
+height: 500px;
+color: white;
+
+}
+.home .boxno2 .box2 i{
+
+    font-size: 300px;
+    
+}
+
+
+.home .end{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgba(224, 48, 48,0.4);
+    color: white;
+   
+
+}
+.home .end .caption{
+    text-align: center;
+    margin:20px auto;
+    
+}
+.home .end .caption h3{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.home .end .caption p
+{
+    font-size: 20px;
+}
+.home .footer{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgba(224, 48, 48,0.4);
+   
+    
+}
+.home .footer .f1{
+width:300px;
+height:100px;
+background-color: rgba(229, 221, 221,0.6);
+border-radius: 10px;
+margin: 18px;
+
+}
+.home .footer .f1:hover{
+    background-color: white;
+}
+
+.home .footer .f1 h3
+{
+    margin:40px;
+    font-size: 20px;
+}
+.home .z{
+    background-color: rgba(224, 48, 48,0.4);
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+
+table{
+    text-align: center;
+    background-color:#dee2e6;
+    width:100%;
+    height: 300px;
+    font-size: 32px;
+    margin-top: 10px;
+    
+}
+ #button{
+    padding: 500px;
+    
+    
+} 
+
+@media(max-width:970px)
+{
+    .home{
+
+        width: 350px;
+        height:30%;
+        background-size: 100% 100%;}
+
+        .home .boxno2 .box2{
+            width: 50%;
+            justify-content: left;
+            height: 50%}
+
+            .home .display .logo img{
+
+              width: 100px;
+              height: 100px;
+              margin: 0;
+              padding: 0;
+              
+
+
+            }
+            
+            .home .box2 img{
+
+                width: 200px;
+                height: 200px;
+
+            }
+        }
+
+
+
+
+
+
+
