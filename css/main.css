@@ -1,223 +1,234 @@
-*{
-margin: 0px;
-padding: 0px;
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-body{
+body {
 
     background-image: url(../images/star2.jpeg);
     background-size: cover;
-    
+
     background-attachment: fixed;
     width: 100%;
-    height:100vh;
+    height: 100vh;
 }
 
-/* .home{
 
-    width: 100%;
-    height:100vh;
-    background-size: 100% 100%;
-    
-    background-image: url(../images/star2.jpeg);
-    background-repeat: no-repeat;
+.home .nav {
+    background-image: url(../images/star.jpeg);
 
-} */
-.home .nav{
-background-image: url(../images/star.jpeg);
-
-padding: 5px;
-display: flex;
-justify-content: space-between;
-box-shadow: 0px 0px 10px rgba(224, 48, 48,0.8);
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px rgba(224, 48, 48, 0.8);
 
 
 }
-i{
 
-    color:rgb(237, 226, 226,0.5);
+i {
+
+    color: rgb(237, 226, 226, 0.5);
     padding-right: 10px;
 }
-.home .nav h1{
-  
-  margin: 10px;
-  color: rgba(224, 48, 48,0.6);
-  font-size: 35px;
+
+.home .nav h1 {
+
+    margin: 10px;
+    color: rgba(224, 48, 48, 0.6);
+    font-size: 35px;
 }
 
-.home .nav ul{
+.home .nav ul {
 
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    
-}
-.home .nav  ul li{
-margin:15px;
-font-size: 18px;
-}
-
-
-
-.home .nav  ul li button{
-width:150px;
-height:27px;
-font-weight: bold;
-border-radius: 5px;
-border: none ;
-box-shadow: 5px 5px 10px rgba(224, 48, 48,0.6);
-color: red;
-background-color: rgba(229, 221, 221,0.6);
-
-
 
 }
-.home .nav  ul li button:hover{
+
+.home .nav ul li {
+    margin: 15px;
+    font-size: 18px;
+}
+
+
+
+.home .nav ul li button {
+    width: 150px;
+    height: 27px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(224, 48, 48, 0.6);
+    color: red;
+    background-color: rgba(229, 221, 221, 0.6);
+
+
+
+}
+
+.home .nav ul li button:hover {
     background-color: white;
 }
-.home .nav a{
-text-decoration: none;
-color:white;
 
-}
-.home .display{
-display: flex;
-margin:100px;
-text-align: center;
-
+.home .nav a {
+    text-decoration: none;
+    color: white;
 
 }
 
-.home .display .logo i{
+.home .display {
+    display: flex;
+    margin: 100px;
+    text-align: center;
+
+
+}
+
+.home .display .logo i {
     font-size: 300px;
-    color: rgba(0,0,0,0.5);
-    
+    color: rgba(0, 0, 0, 0.5);
+
 }
-.home .display .logo i:hover{
-    
+
+.home .display .logo i:hover {
+
     transform: rotate(300deg);
     color: black;
     transition: all;
-    
+
 }
 
 
-.home .content h1{
+.home .content h1 {
 
     font-size: 85px;
     color: red;
 }
-.home .content p{
+
+.home .content p {
 
     font-size: 25px;
     color: white;
 }
-.home .content button{
 
-    width:120px;
-height:50px;
-font-weight: bold;
-border-radius: 9px;
-border: none ;
-margin-top: 40px;
-background-color: rgba(229, 221, 221,0.6);
-box-shadow: 0px 0px 10px rgba(224, 48, 48,0.7);
-color:black;
-font-size: 17px;
+.home .content button {
+
+    width: 120px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 9px;
+    border: none;
+    margin-top: 40px;
+    background-color: rgba(229, 221, 221, 0.6);
+    box-shadow: 0px 0px 10px rgba(224, 48, 48, 0.7);
+    color: black;
+    font-size: 17px;
 }
-.home .content button:hover{
+
+.home .content button:hover {
     background-color: #fff;
 }
-.home .box{
+
+.home .box {
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
-.home .box .box1{
 
-width:800px;
-height:100px;
-margin:10px ;
-padding-bottom: 15px;
-background-color: rgba(224, 48, 48,0.4);
-border-radius: 10px;
-color: white;
+.home .box .box1 {
+
+    width: 800px;
+    height: 100px;
+    margin: 10px;
+    padding-bottom: 15px;
+    background-color: rgba(224, 48, 48, 0.4);
+    border-radius: 10px;
+    color: white;
 }
-.home .box .box1 p{
+
+.home .box .box1 p {
     margin-top: 20px;
 }
 
-.home .boxno2{
+.home .boxno2 {
     display: flex;
     justify-content: space-between;
     text-align: center;
     margin: 90px;
-    
-}
-.home .boxno2 .box2{
-width: 800px;
-height: 500px;
-color: white;
 
 }
-.home .boxno2 .box2 i{
+
+.home .boxno2 .box2 {
+    width: 800px;
+    height: 500px;
+    color: white;
+
+}
+
+.home .boxno2 .box2 i {
 
     font-size: 300px;
-    
+
 }
 
 
-.home .end{
+.home .end {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    background-color: rgba(224, 48, 48,0.4);
+    background-color: rgba(224, 48, 48, 0.4);
     color: white;
-   
+
 
 }
-.home .end .caption{
+
+.home .end .caption {
     text-align: center;
-    margin:20px auto;
-    
+    margin: 20px auto;
+
 }
-.home .end .caption h3{
+
+.home .end .caption h3 {
     margin-bottom: 20px;
     font-size: 40px;
 }
-.home .end .caption p
-{
+
+.home .end .caption p {
     font-size: 20px;
 }
-.home .footer{
+
+.home .footer {
 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     text-align: center;
-    background-color: rgba(224, 48, 48,0.4);
-   
-    
-}
-.home .footer .f1{
-width:300px;
-height:100px;
-background-color: rgba(229, 221, 221,0.6);
-border-radius: 10px;
-margin: 18px;
+    background-color: rgba(224, 48, 48, 0.4);
+
 
 }
-.home .footer .f1:hover{
+
+.home .footer .f1 {
+    width: 300px;
+    height: 100px;
+    background-color: rgba(229, 221, 221, 0.6);
+    border-radius: 10px;
+    margin: 18px;
+
+}
+
+.home .footer .f1:hover {
     background-color: white;
 }
 
-.home .footer .f1 h3
-{
-    margin:40px;
+.home .footer .f1 h3 {
+    margin: 40px;
     font-size: 20px;
 }
-.home .z{
-    background-color: rgba(224, 48, 48,0.4);
+
+.home .z {
+
     text-align: center;
     font-size: 32px;
     color: white;
@@ -225,81 +236,183 @@ margin: 18px;
 
 .home .table {
     text-align: center;
-    background-color: rgba(224, 48, 48,0.4);
-    width:800px;
+    background-color: rgba(224, 48, 48, 0.4);
+    width: 800px;
     height: 800px;
     font-size: 25px;
-    margin: 20px;
+    margin: 30px auto;
+
     border-radius: 13px;
     color: #fff;
     border-top: black 30px;
     padding-left: 100px;
+    border-top: solid black 5px;
 }
+
+
+
+
 .home .table table tr td {
 
     padding-bottom: 30px;
     padding-top: 30px;
 }
-.home .table table tr td input{
+
+.home .table table tr td input {
     width: 500px;
     height: 30px;
 }
-.home .table table tr td textarea{
+
+.home .table table tr td textarea {
     width: 500px;
     height: 300px;
 }
 
-.home .table table #button th input{
+.home .table button {
 
-    width:120px;
-    height:50px;
+    width: 120px;
+    height: 50px;
     font-weight: bold;
     border-radius: 9px;
-    border: none ;
-    background-color: rgba(229, 221, 221,0.6);
-    box-shadow: 0px 0px 10px rgba(224, 48, 48,0.7);
-    color:black;
+    border: none;
+    background-color: rgba(229, 221, 221, 0.6);
+    box-shadow: 0px 0px 10px rgba(224, 48, 48, 0.7);
+    color: black;
     font-size: 17px;
-justify-content: flex-end;
+    margin: 30px;
+}
+
+.home .table button:hover {
+    background-color: white;
 }
 
 
 
-@media(max-width:970px)
-{
-    .home{
+.home .table2 {
+    width: 100%;
+    height: 200px;
+    background-color: rgba(224, 48, 48, 0.4);
+    text-align: center;
+    font-size: 70px;
 
-        width: 350px;
-        height:30%;
-        background-size: 100% 100%;}
+}
 
-        .home .boxno2 .box2{
-            width: 50%;
-            justify-content: left;
-            height: 50%}
+.home .table2 h6 {
+    padding-top: 30px;
+}
 
-            .home .display .logo img{
+.home .table2 i {
+    font-size: 40px;
+}
 
-              width: 100px;
-              height: 100px;
-              margin: 0;
-              padding: 0;
-              
+.home .table2 i:hover {
+    color: #fff;
+}
+
+.home .table3 {
+    width: 100%;
+    height: 100px;
+    border-top: black solid 1px;
+    background-color: rgba(224, 48, 48, 0.4);
+    display: flex;
+    justify-content: space-between;
+}
+
+.home .table3 p {
+    margin: 40px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.home .table3 p a {
+    text-decoration: none;
+    color: rgba(229, 221, 221, 0.6);
+}
+
+.home .table3 p a:hover {
+    color: #fff;
+}
+
+@media(max-width:770px) {
+
+    .home .nav {
+        display: block;
 
 
-            }
-            
-            .home .box2 img{
+    }
 
-                width: 200px;
-                height: 200px;
+    .home .nav h1 {
+        margin-left: 110px;
+    }
 
-            }
-        }
+    .home .nav ul {
 
 
+        justify-content: center;
+    }
+
+
+    .home .display {
+        margin: 0;
+        display: block;
+    }
+
+    .home .display .logo {
+        margin: 10px;
+    }
+
+    .home .display .logo i {
+
+        width: 100px;
+        height: 100px;
+
+        font-size: 100px;
+    }
+
+    .home .box {
+        margin-top: 50px;
+    }
+
+    .home .box .box1 {
+        height: 150px;
+    }
+
+    .home .boxno2 {
+        display: block;
+        margin: 0;
+    }
+
+    .home .boxno2 .box2 {
+        width: 100%;
+        height: 100px;
+        margin-bottom: 500px;
+    }
+
+    .home .table {
+        padding: 22px;
+        width: 290px;
+        height: 600px;
+    }
+
+    .home .table table tr td input {
+        width: 200px;
+        margin: 0;
+    }
+
+    .home .table table tr td textarea {
+        width: 200px;
+        height: 150px;
+    }
+
+    .home .table3 {
+        height: 150px;
+        font-size: 10px;
+        display: block;
+        text-align: center;
+        padding-bottom: 50px;
+
+    }
 
 
 
-
-
+}
