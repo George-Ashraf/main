@@ -161,8 +161,9 @@ i {
 
 .home .boxno2 .box2 {
     width: 800px;
-    height: 500px;
+    height: 400px;
     color: white;
+    
 
 }
 
@@ -224,7 +225,7 @@ i {
 
 .home .footer .f1 h3 {
     margin: 40px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .home .z {
